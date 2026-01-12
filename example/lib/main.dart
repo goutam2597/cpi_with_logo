@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:logo_circular_progress_indicator/logo_circular_progress_indicator.dart';
+import 'package:circular_progress_with_logo/circular_progress_with_logo.dart';
 
 void main() {
   runApp(const MyApp());
@@ -93,7 +93,7 @@ class _DemoPageState extends State<DemoPage>
               size: 80,
               style: _selectedStyle,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
         ],
       ),
@@ -123,7 +123,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.blue,
               style: LoaderStyle.gradient,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -137,7 +137,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.purple,
               style: LoaderStyle.dottedCircle,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -151,7 +151,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.green,
               style: LoaderStyle.dualRing,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -165,7 +165,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.orange,
               style: LoaderStyle.wave,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -179,7 +179,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.red,
               style: LoaderStyle.spinningArcs,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -200,7 +200,7 @@ class _DemoPageState extends State<DemoPage>
               style: LoaderStyle.gradient,
               strokeWidth: 2.5,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -213,7 +213,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.teal,
               style: LoaderStyle.dottedCircle,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -226,7 +226,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.indigo,
               style: LoaderStyle.dualRing,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -240,7 +240,7 @@ class _DemoPageState extends State<DemoPage>
               style: LoaderStyle.wave,
               strokeWidth: 5.0,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -292,7 +292,7 @@ class _DemoPageState extends State<DemoPage>
                 style: _selectedStyle,
                 strokeWidth: _selectedStroke,
                 logoAsset:
-                    'packages/logo_circular_progress_indicator/assets/icon.png',
+                    'packages/circular_progress_with_logo/assets/icon.png',
               ),
             ),
           ),
@@ -486,7 +486,7 @@ class _DemoPageState extends State<DemoPage>
               color: color,
               style: style,
               logoAsset:
-                  'packages/logo_circular_progress_indicator/assets/icon.png',
+                  'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
         );
@@ -552,7 +552,7 @@ class _DemoPageState extends State<DemoPage>
   size: 70,
   color: Colors.blue,
   style: LoaderStyle.gradient,
-  logoAsset: 'packages/logo_circular_progress_indicator/assets/icon.png',
+  logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
 )''',
               style: TextStyle(
                 fontFamily: 'monospace',
@@ -725,7 +725,7 @@ class _DemoPageState extends State<DemoPage>
   color: Colors.${_getColorName(_selectedColor)},
   style: LoaderStyle.$styleName,
   strokeWidth: ${_selectedStroke.toStringAsFixed(1)},
-  logoAsset: 'packages/logo_circular_progress_indicator/assets/icon.png',
+  logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
 )''';
   }
 

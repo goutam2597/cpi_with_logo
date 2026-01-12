@@ -1,7 +1,8 @@
-name: logo_circular_progress_indicator
-description: A customizable circular progress indicator with animated logo/icon in the center. Perfect for loading states with branding.
+name: circular_progress_with_logo
+description: A customizable circular progress indicator with animated logo/icon in the center. Perfect for loading states with branding. Supports 5 different animation styles.
 version: 1.0.0
-homepage: https://github.com/yourusername/logo_circular_progress_indicator
+homepage: https://github.com/goutam2597/cpi_with_logo
+repository: https://github.com/goutam2597/cpi_with_logo
 
 environment:
   sdk: ^3.10.4
