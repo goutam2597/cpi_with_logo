@@ -1,0 +1,16 @@
+name: example
+description: Example app for logo_circular_progress_indicator package
+publish_to: 'none'
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logo_circular_progress_indicator:
+    path: ../
+
+flutter:
+  uses-material-design: true
