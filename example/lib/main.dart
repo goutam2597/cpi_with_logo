@@ -92,8 +92,7 @@ class _DemoPageState extends State<DemoPage>
               message: 'Loading your content...',
               size: 80,
               style: _selectedStyle,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
         ],
       ),
@@ -122,8 +121,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.blue,
               style: LoaderStyle.gradient,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -136,8 +134,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.purple,
               style: LoaderStyle.dottedCircle,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -150,8 +147,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.green,
               style: LoaderStyle.dualRing,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -164,8 +160,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.orange,
               style: LoaderStyle.wave,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -178,8 +173,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.red,
               style: LoaderStyle.spinningArcs,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -199,8 +193,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.pink,
               style: LoaderStyle.gradient,
               strokeWidth: 2.5,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -212,8 +205,7 @@ class _DemoPageState extends State<DemoPage>
               size: 40,
               color: Colors.teal,
               style: LoaderStyle.dottedCircle,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -225,8 +217,7 @@ class _DemoPageState extends State<DemoPage>
               size: 70,
               color: Colors.indigo,
               style: LoaderStyle.dualRing,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -239,8 +230,7 @@ class _DemoPageState extends State<DemoPage>
               color: Colors.deepPurple,
               style: LoaderStyle.wave,
               strokeWidth: 5.0,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
 
@@ -474,7 +464,7 @@ class _DemoPageState extends State<DemoPage>
             border: Border.all(color: Colors.grey.shade300),
             boxShadow: [
               BoxShadow(
-                color: Colors.black.withOpacity(0.05),
+                color: Colors.black.withValues(alpha: 0.05),
                 blurRadius: 10,
                 offset: const Offset(0, 2),
               ),
@@ -485,8 +475,7 @@ class _DemoPageState extends State<DemoPage>
               size: 60,
               color: color,
               style: style,
-              logoAsset:
-                  'packages/circular_progress_with_logo/assets/icon.png',
+              logoAsset: 'packages/circular_progress_with_logo/assets/icon.png',
             ),
           ),
         );
@@ -663,7 +652,7 @@ class _DemoPageState extends State<DemoPage>
           boxShadow: [
             if (isSelected)
               BoxShadow(
-                color: color.withOpacity(0.5),
+                color: color.withValues(alpha: 0.5),
                 blurRadius: 8,
                 spreadRadius: 2,
               ),
